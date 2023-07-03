@@ -1,0 +1,23 @@
+.navbar {
+    & ul {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+
+        height: 96px;
+        width: 830px;
+    }
+
+    & li {
+        color: $white;
+    }
+
+
+    // @include media($tablet) {
+
+    // }
+
+    // @include media($phone) {
+
+    // }
+}
